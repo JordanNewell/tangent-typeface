@@ -31,9 +31,9 @@
     <key>openTypeNamePreferredSubfamilyName</key>
     <string>Regular</string>
     <key>openTypeNameUniqueID</key>
-    <string>0.002;JNEW;Tangent-Regular</string>
+    <string>0.001;JNEW;Tangent-Regular</string>
     <key>openTypeNameVersion</key>
-    <string>Version 0.002</string>
+    <string>Version 0.001</string>
     <key>openTypeOS2Selection</key>
     <array>
       <integer>7</integer>
@@ -55,7 +55,7 @@
     <key>versionMajor</key>
     <integer>0</integer>
     <key>versionMinor</key>
-    <integer>2</integer>
+    <integer>1</integer>
     <key>xHeight</key>
     <integer>500</integer>
   </dict>

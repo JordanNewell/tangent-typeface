@@ -18,7 +18,7 @@ STYLE_NAME = "Regular"
 # binary metadata (the minor field bumps on each post-v0.1 update; the third
 # digit is implicit and tracked in CHANGELOG.md / git tags).
 VERSION_MAJOR = 0
-VERSION_MINOR = 2
+VERSION_MINOR = 1
 COPYRIGHT = "Copyright 2026 Jordan Tangent"
 DESIGNER = "Jordan Tangent"
 MANUFACTURER = "Jordan Tangent"
