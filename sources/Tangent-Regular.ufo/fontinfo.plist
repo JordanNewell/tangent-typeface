@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>800</integer>
+    <key>capHeight</key>
+    <integer>700</integer>
+    <key>copyright</key>
+    <string>Copyright 2026 Jordan Tangent</string>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>familyName</key>
+    <string>Tangent</string>
+    <key>openTypeNameDescription</key>
+    <string>Tangent is an original geometric display typeface built from parallel rails and 45-degree diagonals with squared terminals. No curves. Engineered, not drawn. https://jordantangent.github.io/tangent-typeface/</string>
+    <key>openTypeNameDesigner</key>
+    <string>Jordan Tangent</string>
+    <key>openTypeNameDesignerURL</key>
+    <string>https://jordantangent.com</string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>https://openfontlicense.org</string>
+    <key>openTypeNameManufacturer</key>
+    <string>Jordan Tangent</string>
+    <key>openTypeNameManufacturerURL</key>
+    <string>https://jordantangent.github.io/tangent-typeface/</string>
+    <key>openTypeNamePreferredFamilyName</key>
+    <string>Tangent</string>
+    <key>openTypeNamePreferredSubfamilyName</key>
+    <string>Regular</string>
+    <key>openTypeNameUniqueID</key>
+    <string>0.002;JNEW;Tangent-Regular</string>
+    <key>openTypeNameVersion</key>
+    <string>Version 0.002</string>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
+    <key>openTypeOS2VendorID</key>
+    <string>JNEW</string>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>postscriptFontName</key>
+    <string>Tangent-Regular</string>
+    <key>postscriptFullName</key>
+    <string>Tangent Regular</string>
+    <key>styleName</key>
+    <string>Regular</string>
+    <key>trademark</key>
+    <string>Tangent is a trademark of Jordan Tangent.</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>0</integer>
+    <key>versionMinor</key>
+    <integer>2</integer>
+    <key>xHeight</key>
+    <integer>500</integer>
+  </dict>
+</plist>

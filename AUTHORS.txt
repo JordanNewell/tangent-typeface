@@ -1,0 +1,9 @@
+Tangent Display Typeface
+=======================
+
+Designer:     Jordan Tangent
+Engineer:     Jordan Tangent (parametric generation)
+Contact:      jordan@jordantangent.com
+Year:         2026
+License:      SIL Open Font License 1.1
+Trademark:    "Tangent" and the Tangent logotype are trademarks of Jordan Tangent.
