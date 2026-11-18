@@ -29,10 +29,16 @@ SHEET_PATH = ROOT / "scripts" / "_preview" / "contact_sheet.png"
 
 
 def glyph_hash(glyph_def):
-    contours = union_primitives(glyph_def.get("primitives", []),
-                            glyph_def.get("_stroke", 110))
+    """Order- and float-dust-insensitive geometry hash.
+
+    Coordinates are rounded to 2 decimals and BOTH the points within a
+    contour and the contours themselves are sorted, so the hash is
+    stable across booleanOperations/fontTools point-order and float
+    differences between environments (local Windows vs CI Linux).
+    """
+    contours = union_primitives(glyph_def.get("primitives", []))
     canonical = json.dumps(
-        [sorted(map(tuple, c)) for c in sorted(contours, key=lambda c: sorted(c)[0])],
+        sorted(sorted((round(x, 2), round(y, 2)) for x, y in c) for c in contours),
         separators=(",", ":"),
     )
     return hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
